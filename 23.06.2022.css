@@ -1,95 +1,72 @@
+* {
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+}
+
 body {
     background-color: black;
-    background-size: cover;
-    text-align: center;
     height: 100%;
 }
 
-header {
-    background-color: grey;
+.col1 {
+    background-color: rgb(59, 57, 57);
     font-size: 30px;
     font-family: 'Arial';
-    color: white;
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 5px;
+}
+
+.widthHeadMainFoot {
+    width: 100%;
+}
+#headOtst {
+    margin-bottom: 10px;
 }
 
 main {
-    background-color: grey;
-    font-size: 30px;
-    font-family: 'Arial';
-    color: white;
-    width: 40%;
-    height: 530px;
+    display: inline-block;
+    height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 5px;
 }
 
-.h1 {
-    background-color: rgb(160, 156, 156);
-    text-align: center;
-    color: white;
-    border: 2px solid grey;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 5px;
+.widthMain {
+    width: inherit;
 }
 
-#article {
-    background-color: rgb(160, 156, 156);
-    padding: 60px;
-    text-align: center;
-    color: white;
-    border: 2px solid grey;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 5px;
+.hightMain {
+    height: inherit;
+}
+
+.LeftWidthRight {
+    width: 20%;
+    padding: 10 px;
 }
 
 nav {
-    background-color: grey;
-    font-size: 30px;
-    font-family: 'Arial';
-    color: white;
-    width: 15%;
-    height: 550px;
-    padding: 10 px;
-    text-align: center;
-    margin-left: 10%;
     float: left;
-    border-radius: 5px;
+    margin-left: 10px;
 }
 
 aside {
-    background-color: grey;
-    font-size: 30px;
-    font-family: 'Arial';
-    color: white;
-    width: 15%;
-    height: 550px;
-    padding: 10 px;
-    text-align: center;
     float: right;
-    margin-right: 10%;
-    border-radius: 5px;
+    margin-right: 10px;
 }
 
-footer {
-    background-color: grey;
-    font-size: 30px;
-    font-family: 'Arial';
-    color: white;
-    width: 80%;
+.col2 {
+    background-color: rgb(103, 93, 93);
+}
 
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 5px;
+.widthSect {
+    display: inline-block;
+    width: 50%;
+}
+
+.col3 {
+    background-color: rgb(160, 156, 156);
+    width: 90%;
+    height: 30%;
+    margin: 5px auto;
+}
+#footerOtst {
+    margin-top: 10px;
 }
